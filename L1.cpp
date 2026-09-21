@@ -67,7 +67,9 @@ int main() {
         a objectA(x, y, z, valueB);
         double valueA = objectA.calculate();
 
-        cout << setw(14) << "x = " << x << setw(14) << "b = " << valueB << setw(14) << "a = " << valueA << endl;
+        cout << setw(20) << "x = " << x
+            << setw(30) << "b = " << valueB
+            << setw(30) << "a = " << valueA << endl;
 
     }
 
